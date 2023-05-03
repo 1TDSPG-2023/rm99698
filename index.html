@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +9,13 @@
 
     <link rel="stylesheet" href="./css/estilo.css">
 
+    <script src="./js/script.js" defer></script>
+    
+
 </head>
 
 <body>
-    
+
     <header class="cabecalho">
         <img src="./img/logo.png" alt="Monitor de computador">
         <nav>
@@ -20,6 +24,74 @@
             <a href="#">Item-1</a>
         </nav>
     </header>
+
+    <h2 class="tit-sec" id="meu-tit">Seção de Fotos</h2>
+
+    <!-- <button onclick="alert(document.querySelectorAll('h2'))">BEM VINDOS!</button> -->
+    <button id="meu-btn">CLICK</button>
+    
+    
+
+    <section class="conteudo">
+        <div>
+            <img src="./img/lobo1.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo2.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo3.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo4.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo5.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+        <div>
+            <img src="./img/lobo6.jpg" alt="Lobo">
+            <p>Legenda</p>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <h2>Fale Conosco</h2>
+        	
+        <form action="./info.html" method="get">
+            <fieldset>
+                <legend>Login</legend>
+
+                <input type="hidden" name="curioso" value="seus-dados">
+
+                <div>
+                    <label for="idUser">Usuário</label>
+                    <input type="text" name="txtUser" id="idUser" placeholder="Usuário">
+                </div>
+                <div>
+                    <label for="idPass">Senha</label>
+                    <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                </div>
+                <div>
+                    <label for="idGravaDados">Gravar Dados</label>
+                    <input type="checkbox" name="chkDta" id="idGravaDados" value="ok" placeholder="Usuário">
+                </div>
+                <div>
+                    <button type="submit" value="Login">Login</button>
+                </div>
+            </fieldset>
+        </form>
+
+        <nav>
+            <a href="#"><img src="./img/social-1.png" alt="Logo"></a>
+            <a href="#"><img src="./img/social-2.png" alt="Logo"></a>
+            <a href="#"><img src="./img/social-3.png" alt="Logo"></a>
+        </nav>
+    </footer>
 
 </body>
 
