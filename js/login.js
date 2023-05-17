@@ -64,7 +64,7 @@ addEventListener("click", (evt)=>{
                 //Redirect: Espera 3 segundos antes de redirecionar
                 setTimeout( function(){
                     window.location.href = "../pages/sucesso.html";
-                }, 2000);
+                }, 3000);
 
             }else{
                 msgError.setAttribute("style","color:#ff0000;");
