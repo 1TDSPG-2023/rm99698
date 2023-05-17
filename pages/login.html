@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="./js/login.js" defer></script>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="../js/login.js" defer></script>
 
     <title>Entrar</title>
 </head>
@@ -18,15 +21,16 @@
             <fieldset>
                 <legend>Login</legend>
 
-                <input type="hidden" name="curioso" value="seus-dados">
+                <input type="hidden" name="token" value="seus-dados">
 
                 <div>
                     <label for="idUser">Usuário</label>
                     <input type="text" name="txtUser" id="idUser" placeholder="Usuário">
                 </div>
-                <div>
+                 <div>
                     <label for="idPass">Senha</label>
                     <input type="password" name="txtPass" id="idPass" placeholder="Senha">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
                 </div>
                 <div>
                     <label for="idGravaDados">Gravar Dados</label>
