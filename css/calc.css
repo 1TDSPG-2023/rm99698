@@ -1,0 +1,29 @@
+
+.calc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.visor-calc input{
+    width:97%;
+    height: 40px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin: 2% 0;
+}
+
+.btn-calc,.oper-calc,.result-calc{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-calc button{
+    width: 30%;
+}
+
+.btn-calc button,.oper-calc button,.result-calc  button{
+    flex-grow: 1;
+}
+
+
+
